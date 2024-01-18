@@ -1,0 +1,17 @@
+#testimonia{
+    padding: 110px 0 ;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+    color: white;
+    .content{
+        text-align: center;
+        margin-bottom: 50px;
+        p{
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+            span{
+                color: var(--main--color);
+            }
+        }
+    }
+}

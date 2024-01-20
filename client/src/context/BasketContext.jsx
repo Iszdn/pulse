@@ -10,6 +10,7 @@ const BasketProvider = ({children}) => {
 
     let subtotal = 0
     basket.map(e => subtotal += e.price * e.count)
+    
 
     function addBasket(product) {
         const existBasket=basket.findIndex(x=>x._id===product._id)

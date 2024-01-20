@@ -29,15 +29,15 @@ async function addMenu(values) {
       <Form>
         <label htmlFor="title">title</label>
         <Field name="title" type="text" />
-        <ErrorMessage name="title" />
+        <div className='red'><ErrorMessage  name="desc" /></div>
 
         <label htmlFor="desc">description</label>
         <Field name="desc" type="text" />
-        <ErrorMessage name="desc" />
+        <div className='red'><ErrorMessage  name="desc" /></div>
 
         <label htmlFor="price">price</label>
         <Field name="price" type="text" />
-        <ErrorMessage name="price" />
+        <div className='red'><ErrorMessage  name="desc" /></div>
 
         <button className='btn' type="submit">add</button>
       </Form>

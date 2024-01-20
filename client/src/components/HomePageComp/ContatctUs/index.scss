@@ -1,15 +1,18 @@
 #contact{
    background-image: url("https://preview.colorlib.com/theme/pulse/img/footer-bg.jpg.webp");
    position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
    .korobka{
    position: absolute;
    left: 50%;
-   top: 50%;
-  
+   bottom: 70%;
+   width: 70%;
+background-color: white;
    transform: translate(-50%,50%);
     .content{
       
-        background-color: white;
        .header{
     .icon{
         color: var(--second--color);
@@ -19,7 +22,11 @@
     }
   }     
     }
-    
+  form{
+    .row{
+        padding: 50px;
+    }
+  }
   
    }
   

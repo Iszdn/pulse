@@ -16,6 +16,17 @@ const ContactUs = () => {
   </div>
 </div>    
         </div>
+        <form action="">
+
+          <div className="container">
+      <div className="row">
+<input type="text" className='col-lg-6 col-md-12 col-12'  placeholder='Name' />
+<input type="text" className='col-lg-6 col-md-12 col-12' placeholder='E-mail'/>
+<textarea className='col-lg-12 col-md-12 col-12' name="" id="" cols="30" rows="10"></textarea>
+      </div>
+        </div>
+        </form>
+        
 
       </div>
 
